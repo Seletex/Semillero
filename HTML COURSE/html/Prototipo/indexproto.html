@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <fieldset>
+         <legend>Persona y Contacto:</legend>
+
+         <table border="1">
+            <tr>
+              <td><label for="fname">Primer Nombre:</label></td>
+              <td><input type="text"></td>
+              <td><label for="fname">Segundo Nombre:</label></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td><label for="fname">Primer Apellido:</label></td>
+              <td><input type="text"></td>
+              <td><label for="fname">Segundo Apellido:</label></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="email"> Numero Telefono:</label></td>
+                <td><input type="tel"></td>
+                <td><label for="correo">Correo Electronico:</label></td>
+                <td><input type="email"></td>
+            </tr>
+          </table>
+        </fieldset>
+        <fieldset>
+         <legend>Identificacion y Residencia:</legend>
+         <label for="start">Fecha Nacimiento:</label>
+         <input type="date" id="start" name="trip-start">
+         <label for="fname">Tipo Identificacion:</label>
+         <select id="TI" name="TI">
+            <option value="nu">Nupi</option>
+            <option value="rc">Registro Civil</option>
+            <option value="ti">Targeta Identidad</option>
+            <option value="ce">Cedula</option>
+            <option value="pa">Pasaporte</option>
+            <option value="ce">Cedula Extrangera</option>
+         </select>
+         <label for="lname">Identificacion:</label>
+         <input type="text" id="lname" name="lname"><br><br>
+         <label for="fname">Pais Redidencia:</label>
+         <select id="cars" name="cars">
+            <option value="col">Colombia</option>
+            <option value="saab">Targeta Identidad</option>
+            <option value="fiat">Cedula</option>
+            <option value="audi">Pasaporte</option>
+            <option value="audi">Cedula Extrangera</option>
+         </select>
+         <label for="fname">Departamento Redidencia:</label>
+         <select id="cars">
+            <option value="" selected="selected">Seleccione un valor...</option>
+            <option value="volvo">Antioquia</option>
+            <option value="saab">Boyaca</option>
+            <option value="fiat">Cedula</option>
+            <option value="audi">Pasaporte</option>
+            <option value="audi">Cedula Extrangera</option>
+         </select>
+         <label for="fname">Ciudad Redidencia:</label>
+         <select id="cars" name="cars">
+            <option value="volvo">Registro Civil</option>
+            <option value="saab">Targeta Identidad</option>
+            <option value="fiat">Cedula</option>
+            <option value="audi">Pasaporte</option>
+            <option value="audi">Cedula Extrangera</option>
+         </select><br><br>
+        </fieldset>
+        <fieldset>
+         <legend>Profesional:</legend>
+         <label for="fname">Gusto Musical:</label><br>
+         <input type="checkbox">
+         <label for="vehicle1">Jazz</label>
+         <input type="checkbox">
+         <label for="vehicle1">Blues</label>
+         <input type="checkbox">
+         <label for="vehicle1">Góspel</label>
+         <input type="checkbox">
+         <label for="vehicle1">Soul</label>
+         <input type="checkbox">
+         <label for="vehicle1">Pop</label>
+         <input type="checkbox">
+         <label for="vehicle1">Rock </label><br><br>
+         <label for="fname">RH:</label>
+         <select id="cars" name="cars">
+            <option value="volvo">A</option>
+            <option value="saab">B</option>
+            <option value="fiat">AB</option>
+            <option value="audi">O</option>
+         </select>
+         <select id="cars" name="cars">
+            <option value="volvo">+</option>
+            <option value="saab">-</option>
+         </select><br><br>
+         <label for="fname">Perfil:</label><br>
+         <textarea name="message" rows="10" cols="60"></textarea><br><br>
+        </fieldset>
+      <fieldset>
+         <legend>Fin:</legend>
+         <input type="submit" value="Enviar">
+         <input type="reset" value="Borrar">
+      </fieldset>
+  </form>
+
+</body>
+</html>
